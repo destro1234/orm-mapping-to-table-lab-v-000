@@ -39,9 +39,9 @@ class Student
   end
 
   def self.create(hash)
-    song = Song.new(hash)
-    song.save
-    song
+    student = Student.new(hash)
+    student.save
+    student
   end
 
 end
